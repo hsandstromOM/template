@@ -48,42 +48,6 @@
         </a>
   </div>
 
-  <!-- Button trigger modal-->
-  <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalRelatedContent">Launch modal</button> -->
-
-  <!--Modal: modalRelatedContent-->
-  <div class="modal fade bottom" id="modalRelatedContent" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="false">
-    <div class="modal-dialog modal-full-height modal-bottom modal-notify modal-info" role="document">
-      <!--Content-->
-      <div class="modal-content">
-        <!--Header-->
-        <div class="modal-header">
-          <p class="heading">Related article</p>
-
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true" class="white-text">&times;</span>
-                </button>
-        </div>
-
-        <!--Body-->
-        <div class="modal-body">
-
-          <div class="row">
-            <div class="col-12">
-              <p><strong>My travel to paradise</strong></p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit [...]</p>
-              <button type="button" class="btn btn-primary btn-md">Read more</button>
-
-            </div>
-          </div>
-        </div>
-      </div>
-      <!--/.Content-->
-    </div>
-  </div>
-  <!--Modal: modalRelatedContent-->
-
-
   <!-- Marketing messaging and featurettes
       ================================================== -->
   <!-- Wrap the rest of the page in another container to center all the content. -->
@@ -92,33 +56,138 @@
 
     <!-- Three columns of text below the carousel -->
     <div class="d-flex flex-wrap">
-      <div class="staff-photo" data-toggle="modal" data-target="#modalRelatedContent">
+      <div class="staff-photo img__wrap" data-toggle="modal" data-target="#modal1RelatedContent">
         <img src="//images.contentful.com/3d6687vvojjk/3XGKBXHcLueCSqo2EIs44e/fbc84a9394f90915fb63b3271c5ad321/VernitaBrown.jpg" alt="Generic placeholder image">
-        <!-- <h2>Heading</h2> -->
-        <!-- <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p> -->
-        <!-- <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p> -->
+        <div class="d-flex flex-wrap img__description_layer">
+          <h2 class="img__description">Vernita Brown</h2>
+          <h3 class="img__description">Manager, Culture, Communications, &amp; Operations</h3>
+        </div>
       </div>
-      <!-- /.col-lg-4 -->
-      <div class="staff-photo">
+      <!--Modal: modal1RelatedContent-->
+      <div class="modal fade bottom" id="modal1RelatedContent" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-full-height modal-bottom  modal-info cascading-modal modal-avatar" role="document">
+          <!--Content-->
+          <div class="modal-content" data-dismiss="modal" aria-label="Close">
+            <!--Header-->
+            <div class="modal-header">
+              <img src="//images.contentful.com/3d6687vvojjk/3XGKBXHcLueCSqo2EIs44e/fbc84a9394f90915fb63b3271c5ad321/VernitaBrown.jpg" alt="Generic placeholder image">
+            </div>
+            <!--Body-->
+            <div class="modal-body">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" class="">&times;</span>
+                    </button>
+              <div class="row">
+                <div class="col-12">
+                  <h2>Vernita Brown</h2>
+                  <h3>Manager, Culture, Communications, &amp; Operations</h3>
+                  <p>Originally from Tampa, Florida, Vernita fell in love with South Carolina on a visit to Clemson University, where she earned both her Bachelor and Masters degrees. After graduation, she went on to do youth development work with a community benefit organization in the Bahamas and subsequently returned to the States to work with various non-profits.  This non-profit work allowed Vernita the opportunity to provide support to non-traditional, impoverished college students as well as the opportunity to coach other community programs towards quality standards.  Vernita is thrilled to be on the TFA-SC team, where she can be a part of a great movement towards ONE DAY.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--/.Content-->
+        </div>
+      </div>
+      <div class="staff-photo" data-toggle="modal" data-target="#modal2RelatedContent">
         <img src="//images.contentful.com/3d6687vvojjk/2NyMGnfTyM0IqgwKy06iOU/efcc3cfe019fbfab94e086830a871add/GwenCarmichael.jpg" alt="Gwen Carmichael">
         <!-- <h2>Heading</h2> -->
         <!-- <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p> -->
         <!-- <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p> -->
       </div>
-      <!-- /.col-lg-4 -->
-      <div class="staff-photo">
+      <!--Modal: modal2RelatedContent-->
+      <div class="modal fade bottom" id="modal2RelatedContent" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-full-height modal-bottom modal-notify modal-info" role="document">
+          <!--Content-->
+          <div class="modal-content">
+            <!--Header-->
+            <div class="modal-header">
+              <p class="heading">Related article</p>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" class="white-text">&times;</span>
+                    </button>
+            </div>
+            <!--Body-->
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-12">
+                  <p><strong>My travel to paradise</strong></p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit [...]</p>
+                  <button type="button" class="btn btn-primary btn-md">Read more</button>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--/.Content-->
+        </div>
+      </div>
+      <div class="staff-photo" data-toggle="modal" data-target="#modal3RelatedContent">
         <img src="//images.contentful.com/3d6687vvojjk/46YxB0P1DqEGu8mYa8MWgE/7f97732e4c4027de8b78962d3931371a/ChristineCulp.jpg" alt="Christine Culp">
         <!-- <h2>Heading</h2> -->
         <!-- <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p> -->
         <!-- <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p> -->
       </div>
-      <div class="staff-photo">
+      <!--Modal: modal3RelatedContent-->
+      <div class="modal fade bottom" id="modal3RelatedContent" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-full-height modal-bottom modal-notify modal-info" role="document">
+          <!--Content-->
+          <div class="modal-content">
+            <!--Header-->
+            <div class="modal-header">
+              <p class="heading">Related article</p>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" class="white-text">&times;</span>
+                    </button>
+            </div>
+            <!--Body-->
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-12">
+                  <p><strong>My travel to paradise</strong></p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit [...]</p>
+                  <button type="button" class="btn btn-primary btn-md">Read more</button>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--/.Content-->
+        </div>
+      </div>
+      <div class="staff-photo" data-toggle="modal" data-target="#modal4RelatedContent">
 <img src="//images.contentful.com/3d6687vvojjk/1HuntVrhnm4S4SA2wWGO4g/4d7fca0ae1d5b59bf25d8f19fdb3d6b0/TessHolt.jpg" alt="Tess Holt">
         <!-- <h2>Heading</h2> -->
         <!-- <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p> -->
         <!-- <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p> -->
       </div>
-      <!-- /.col-lg-4 -->
+      <!--Modal: modal4RelatedContent-->
+      <div class="modal fade bottom" id="modal4RelatedContent" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-full-height modal-bottom modal-notify modal-info" role="document">
+          <!--Content-->
+          <div class="modal-content">
+            <!--Header-->
+            <div class="modal-header">
+              <p class="heading">Related article</p>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" class="white-text">&times;</span>
+                    </button>
+            </div>
+            <!--Body-->
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-12">
+                  <p><strong>My travel to paradise</strong></p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit [...]</p>
+                  <button type="button" class="btn btn-primary btn-md">Read more</button>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--/.Content-->
+        </div>
+      </div>
     </div>
     <!-- /.row -->
 
