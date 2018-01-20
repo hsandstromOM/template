@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
+    "ng": "ng serve --open",
     "start": "node server.js",
     "build": "ng build",
     "pwa": "ng build --prod && http-server ./dist",
