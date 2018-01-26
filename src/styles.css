@@ -75,7 +75,8 @@ body {
   }
   .masthead .masthead-bg {
     transform: skewX(-8deg);
-    transform-origin: top right
+    transform-origin: top right;
+    background-position-x: 8em;
   }
   .masthead .masthead-content {
     padding-left: 3rem;
@@ -274,9 +275,13 @@ body {
 }
 
 @media (max-width:768px) {
-  /* .masthead {
+  .masthead {
     padding-bottom: 0;
-  } */
+  }
+  .masthead .masthead-bg {
+    top: auto;
+    bottom: 15%;
+  }
   .py-5 {
     padding-bottom: 0!important;
   }
